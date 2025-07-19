@@ -1,0 +1,30 @@
+# Archivos temporales y cachés
+*.log
+*.tmp
+*.temp
+
+# Archivos generados automáticamente
+node_modules/
+dist/
+build/
+.cache/
+
+# Archivos sensibles
+.env
+*.key
+*.pem
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos duplicados o innecesarios
+index copy.txt
+data copy.txt
+
+# Carpeta assets si no contiene archivos importantes
+assets/
+
+# Otros archivos específicos
+*.bak
+*.swp
